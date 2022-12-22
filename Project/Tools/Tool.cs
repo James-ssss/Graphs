@@ -37,7 +37,7 @@ namespace Project.WPF.Tools
                 shape.Effect = new DropShadowEffect() { 
                     BlurRadius = 35,
                     ShadowDepth = 0,
-                    Color = Color.FromRgb(230, 50, 50)
+                    Color = Color.FromRgb(255, 255, 0)
                 };
             }
         }

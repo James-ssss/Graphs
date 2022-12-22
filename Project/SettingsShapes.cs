@@ -14,12 +14,12 @@ namespace Project.WPF
 {
     internal class SettingsShapes
     {
-        const int rectHeight = 80;
+        const int rectHeight = 50;
         const int rectWidth =  rectHeight;
 
         public Polyline DrawPolyline()
         {
-            var stroke =            Brushes.RosyBrown;
+            var stroke =            Brushes.Red;
             double thickness =      4;
             var strokeDashArray =   new DoubleCollection();
 
@@ -102,7 +102,7 @@ namespace Project.WPF
                 Height =                rectHeight,
                 VerticalAlignment =     VerticalAlignment.Top,
                 HorizontalAlignment =   HorizontalAlignment.Left,
-                Fill =                  Brushes.AntiqueWhite,
+                Fill =                  Brushes.LightGray,
                 Stroke =                Brushes.Black,
                 StrokeThickness =       0.5,
             };
